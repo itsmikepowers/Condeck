@@ -1,14 +1,21 @@
 # Condeck
 AI Content Generator
 
-Make sure you have node installed
-This runs off electron JS
+## Installation
+Make sure you have Node.js installed
 
-Run This 
-npm install electron --save-dev
+This runs off Electron JS
 
+If you do not have electron run: 'pip install electron"
+
+## Keys
 Enter API Key and Voice ID from 11Labs
 
 Enter in code.json Key from Google Console for Transcription
 
-npm start - To run Condeck
+
+## Run This
+Clone the Repo
+Go into Condeck
+Run: 'npm install electron --save-dev'
+Run: 'npm start'
