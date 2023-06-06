@@ -1,0 +1,31 @@
+{
+  "name": "Condeck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "build": {
+    "appId": "com.yourapp.app",
+    "productName": "Your App",
+    "directories": {
+      "output": "dist"
+    },
+    "mac": {
+      "icon": "assets/icons/condeck.icns"
+    },
+    "win": {
+      "icon": "assets/icons/condeck.ico"
+    },
+    "linux": {
+      "icon": "assets/icons/condeck.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^latest-version"
+  }
+}
