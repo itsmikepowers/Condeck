@@ -25,7 +25,4 @@
       "icon": "assets/icons/condeck.png"
     }
   },
-  "devDependencies": {
-    "electron": "^latest-version"
-  }
 }
